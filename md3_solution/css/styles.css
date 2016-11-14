@@ -1,0 +1,111 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 1px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+nav#header-nav {
+    border: 2px solid black;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* brand name */
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.page-header{
+	border: 0;
+}
+
+body .container-fluid .jumbotron{
+	background-color: #999999;
+	border-radius: 0px;
+	padding: 5px 15px 5px 20px;
+}
+
+.jumbotron p{
+	  font-weight: bold;
+}
+
+.jumbotron h3{
+	  font-weight: bold;
+}
+
+h2{
+	  font-weight: bold;
+	  margin-top: 0px;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -40px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: solid black 2px;
+}*/
+
+#nav-list{
+	margin-top: 10px;
+	background-color: white;
+}
+
+#nav-list a{
+	  color: #111111;
+	  font-weight: bold;
+	  font-size: 21px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list li{
+	border: solid 2px black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent; 
+}
+
+/********** Desktop & Tablet devices only **********/
+@media (min-width: 768px) {
+	.navbar-brand {
+  padding-top: 10px;
+}
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  	#brand-name{
+  		margin-top: auto;
+  		margin-bottom: auto;
+  	}
+
+  }
+
